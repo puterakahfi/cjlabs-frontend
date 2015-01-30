@@ -1,0 +1,28 @@
+#head-segment{
+    height: 150px;
+    margin-top: 60px;
+    border-bottom: solid 2px #191A1E;
+    color: white;
+    background: #FFFFFF url('../img/dark-header-img.jpg');
+
+}
+
+#content-element{
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#footer-element{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    color: #767676;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    background: #29ABE0;
+     background: #FFFFFF url('../img/dark-header-img.jpg');
+}
+body{
+    background: #EEEEEE;
+}
