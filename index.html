@@ -31,13 +31,17 @@
     </head>
 
     <body>
+
+
         <div ng-app="aswadeApp">
 
-            <div class="contain-to-grid sticky"> <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+
+
+            <div class="contain-to-grid sticky padding-5px"> <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="#">CJLABS<sup> beta</sup></a></h1>
+                            <h1><a href="#">CJLABS<sup class="red"> <b>beta</b></sup></a></h1>
                         </li>
                         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 
@@ -47,9 +51,10 @@
 
                         <!-- Left Nav Section -->
                         <ul class="left">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#" class="active"><span class="fa fa-home"></span> Beranda</a></li>
                             <li><a href="#">Training</a></li>
-                            <li><a href="#">Templates</a></li>
+                            <li><a href="#">Template</a></li>
+                            <li><a href="#"><span class="fa fa-video-camera"></span>  Screencast</a></li>
 
                         </ul>
                     </section>
@@ -61,27 +66,142 @@
                 </nav> </div>
 
 
+
+            <div id="header">
+                <div class="row">
+                    <div class="medium-7 columns">
+                        <div class="flex-video widescreen vimeo">
+                            <iframe src="https://player.vimeo.com/video/44801709" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                        </div>
+                    </div>
+                    <div class="medium-5 columns margintop-20px">
+                        <dl>
+                            <dt><h2>Leverage your skill</h2></dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar . 
+                                <br/><br/>
+                                <a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button success small">Join Now</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="newsletter">
+                <div class="row">
+                    <div class="medium-8 columns">
+                        <h5>Stay on top of what’s happening in <a href="http://zurb.com/responsive">responsive design</a>.</h5>
+                        <p>Sign up to receive monthly Responsive Reading highlights. <a href="http://zurb.com/responsive/reading">Read Last Month's Edition »</a></p>
+                    </div>
+                    <div class="medium-4 columns">
+                        <form method="post" action="http://zurb.com/responsive/subscribe">
+                            <div class="row collapse margintop-20px">
+                                <div class="small-8 medium-8 columns">
+                                    <input type="text" name="email" placeholder="signup@example.com">
+                                </div>
+                                <div class="small-4 medium-4 columns">
+                                    <input type="submit" href="#" class="postfix small button expand alert" value="Subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+  
+
+
             <!-- End Header and Nav -->
 
             <!-- Main Grid Section -->
 
 
-            <section id="responsive-gallery-large-marquee">
-                <div class="row">
-                    <div class="medium-7 columns">
-                        <h1>Website Examples</h1>
-                        <h4>With more designers adopting responsive design for their personal
-                            and professional projects, we've collected some of the best work built
-                            with responsive design as the core.</h4><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
-                            Gallery</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="small-12 columns imageoverlay hide-for-small"><img src="img/sliders/floating-devices.svg" class="animated fadeInUp"></div>
-                </div>
-            </section>
 
-            <div class="at-view-slide-in-left at-view-slide-out-right" ui-view  ></div>
+
+            <div class="row margintop-20px">
+                <div class="medium-7 columns">
+                    <h2>Mastering symfony 2 </h2>
+                    <h4>With more designers adopting responsive design for their personal
+                        and professional projects, we've collected some of the best work built
+                        with responsive design as the core.</h4><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
+                        Gallery</a>
+                </div>
+                <div class="medium-4 columns">
+                    <img src="http://symfony.com/images/v5/pictos/home-main-illu.svg">
+                </div>
+                <hr/>
+
+            </div>
+
+
+
+            <div class="row">
+                <div class="medium-7 columns right ">
+                    <h1>Software testing </h1>
+                    <h4>With more designers adopting responsive design for their personal
+                        and professional projects, we've collected some of the best work built
+                        with responsive design as the core.</h4><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
+                        Gallery</a>
+                </div><hr/>
+            </div>
+
+            <div class="row">
+                <div class="medium-7 columns left ">
+                    <h1>Front End Training </h1>
+                    <h4>With more designers adopting responsive design for their personal
+                        and professional projects, we've collected some of the best work built
+                        with responsive design as the core.</h4><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
+                        Gallery</a>
+                </div><hr/>
+            </div>
+
+
+
+                      <div class="row collapse margintop-20px">
+
+                <div class="large-4 columns">
+                    <ul class="pricing-table right-side">
+                        <li class="title">Standard</li>
+                        <li class="price">$19.99</li>
+                        <li class="description">An awesome description</li>
+                        <li class="bullet-item"><i class="foundicon-graph"></i>1 Database</li>
+                        <li class="bullet-item"><i class="foundicon-cloud"></i> 1GB Storage</li>
+                        <li class="bullet-item"><i class="foundicon-address-book"></i> 100 Contacts</li>
+                        <li class="bullet-item"><i class="foundicon-website"></i> Online Support</li>
+                        <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+                    </ul>
+                </div>
+
+                <div class="large-4 columns recommended">
+                    <ul class="pricing-table">
+                        <li class="title success">Plus</li>
+                        <li class="price">$59.99</li>
+                        <li class="description">An awesome description</li>
+                        <li class="bullet-item"><i class="foundicon-graph"></i>2 Databases</li>
+                        <li class="bullet-item"><i class="foundicon-cloud"></i> 10GB Storage</li>
+                        <li class="bullet-item"><i class="foundicon-address-book"></i> 250 Contacts</li>
+                        <li class="bullet-item"><i class="foundicon-website"></i> Online Support</li>
+                        <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+                    </ul>
+                </div>
+                <div class="large-4 columns">
+                    <ul class="pricing-table left-side">
+                        <li class="title">Premium</li>
+                        <li class="price">$99.99</li>
+                        <li class="description">An awesome description</li>
+                        <li class="bullet-item"><i class="foundicon-graph"></i>  3 Databases</li>
+                        <li class="bullet-item"><i class="foundicon-cloud"></i> 50GB Storage</li>
+                        <li class="bullet-item"><i class="foundicon-address-book"></i> 500 Contacts</li>
+                        <li class="bullet-item"><i class="foundicon-phone"></i> Phone Support</li>
+                        <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+                    </ul>
+                </div>
+
+            </div>              
+
+
+            
+            <div class="at-view-slide-in-left at-view-slide-out-right" ui-view></div>
 
         </div>
 
