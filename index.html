@@ -41,7 +41,7 @@
 
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="#">CJLABS<sup class="red"> <b>beta</b></sup></a></h1>
+                            <h1><a href="#"><b>CJLABS</b><sup class="red"><b>β</b></sup></a></h1>
                         </li>
                         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 
@@ -51,10 +51,17 @@
 
                         <!-- Left Nav Section -->
                         <ul class="left">
-                            <li><a href="#" class="active"><span class="fa fa-home"></span> Beranda</a></li>
-                            <li><a href="#">Training</a></li>
-                            <li><a href="#">Template</a></li>
+                            <li class="active"><a href="#"><span class="fa fa-home"></span> Beranda</a></li>
+                            <li><a href="#"><span class="fa fa-users"></span> Trainer</a></li>
+                            <li><a href="#"><span class="fa fa-list-alt"></span> Jadwal</a></li>
                             <li><a href="#"><span class="fa fa-video-camera"></span>  Screencast</a></li>
+
+                        </ul>
+
+                        <ul class="right">
+
+                            <li class="button-bar small success"><a href="#"><span class="fa fa-lock"></span> login</a></li>
+
 
                         </ul>
                     </section>
@@ -68,7 +75,7 @@
 
 
             <div id="header">
-                <div class="row">
+                <div class="row ">
                     <div class="medium-7 columns">
                         <div class="flex-video widescreen vimeo">
                             <iframe src="https://player.vimeo.com/video/44801709" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -79,7 +86,7 @@
                             <dt><h2>Leverage your skill</h2></dt>
                             <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar . 
                                 <br/><br/>
-                                <a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button success small">Join Now</a>
+                                <a href="http://zurb.com/responsive?framework_id=1" class="button success small round">Join Now</a>
                             </dd>
                         </dl>
                     </div>
@@ -89,18 +96,18 @@
 
             <div id="newsletter">
                 <div class="row">
-                    <div class="medium-8 columns">
+                    <div class="medium-7 columns">
                         <h5>Stay on top of what’s happening in <a href="http://zurb.com/responsive">responsive design</a>.</h5>
                         <p>Sign up to receive monthly Responsive Reading highlights. <a href="http://zurb.com/responsive/reading">Read Last Month's Edition »</a></p>
                     </div>
-                    <div class="medium-4 columns">
+                    <div class="medium-5 columns">
                         <form method="post" action="http://zurb.com/responsive/subscribe">
                             <div class="row collapse margintop-20px">
-                                <div class="small-8 medium-8 columns">
+                                <div class="small-7 medium-9 columns">
                                     <input type="text" name="email" placeholder="signup@example.com">
                                 </div>
-                                <div class="small-4 medium-4 columns">
-                                    <input type="submit" href="#" class="postfix small button expand alert" value="Subscribe">
+                                <div class="small-5 medium-3 columns">
+                                    <input type="submit" href="#" class="postfix small button  alert" value="Subscribe">
                                 </div>
                             </div>
                         </form>
@@ -110,50 +117,21 @@
 
 
 
-
-            <!-- End Header and Nav -->
-
-            <!-- Main Grid Section -->
-
-
             <div id="container">
 
                 <div class="row margintop-20px">
-                    <div class="medium-8 columns">
+                    <div class="medium-8 columns margintop-20px">
                         <h2>Mastering symfony 2 </h2>
-                        <p>With more designers adopting responsive design for their personal
-                            and professional projects, we've collected some of the best work built
-                            with responsive design as the core.</p><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
-                            Gallery</a>
+                        <p>Symfony is a set of PHP Components, a Web Application framework, a Philosophy, and a Community — all working together in harmony.
+                        </p><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button small success">View Detail</a>
                     </div>
                     <div class="medium-4 columns right">
-                        <img src="http://symfony.com/images/v5/pictos/home-main-illu.svg">
+                        <img src="img/symfony.svg">
                     </div>
                     <hr/>
 
                 </div>
 
-
-
-                <div class="row">
-                    <div class="medium-7 columns right ">
-                        <h1>Software testing </h1>
-                        <h4>With more designers adopting responsive design for their personal
-                            and professional projects, we've collected some of the best work built
-                            with responsive design as the core.</h4><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
-                            Gallery</a>
-                    </div><hr/>
-                </div>
-
-                <div class="row">
-                    <div class="medium-7 columns left ">
-                        <h1>Front End Training </h1>
-                        <h4>With more designers adopting responsive design for their personal
-                            and professional projects, we've collected some of the best work built
-                            with responsive design as the core.</h4><a href="http://zurb.com/responsive?framework_id=1" class="responsive-gallery-button button">Visit our Responsive
-                            Gallery</a>
-                    </div><hr/>
-                </div>
 
 
 
@@ -230,7 +208,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script>
-        $(function() {
+        $(function () {
 
             $(document).foundation();
         });

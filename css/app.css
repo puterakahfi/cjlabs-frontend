@@ -27,13 +27,15 @@
 }
 
 #header h2{
-    color:whitesmoke;
+    color:#4CACDB;
 }
 
 #newsletter {
     padding: 20px 0;
     background: #085a78;
+    background: #F5F5F5;
     padding: 10px 0 10px 0;
+    border-bottom: 2px solid #e1e8ed
 }
 
 #newsletter h5 {
@@ -42,7 +44,7 @@
     font-weight: 400;
     margin-bottom: 0px;
     margin-top: 10px;
-    color: #fff;
+    color: #555;;
     line-height: 24px;
 }
 
@@ -50,7 +52,7 @@
     clear: both;
     font-size: 13px;
     padding-top: 2px;
-    color: #fff;
+    color: #555;
 }
 
 #newsletter .margintop-20px {
@@ -81,3 +83,7 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
     .left-side { border-right: none; }
     .right-side { border-left: none; }
 }   
+
+.black-background{
+    background: black;
+}
